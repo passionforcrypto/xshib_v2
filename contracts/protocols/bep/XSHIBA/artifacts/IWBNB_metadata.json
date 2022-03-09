@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "dst",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "wad",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/protocols/bep/XSHIBA/XSHIBA.sol": "IWBNB"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/protocols/bep/XSHIBA/XSHIBA.sol": {
+			"keccak256": "0xd87a04c160dc5988d3452142ddd6cf903f68154e41a2aa1d63ac3604577a53d2",
+			"license": "No License (None)",
+			"urls": [
+				"bzz-raw://8a6b563f70932c9974795e633fd0f527bc74490cbc4930b012a0370ffeb390c9",
+				"dweb:/ipfs/Qmf6YssCGTo2cA4gtiT54EiSmygbFXHWcUoboLMnyL1UQi"
+			]
+		}
+	},
+	"version": 1
+}
